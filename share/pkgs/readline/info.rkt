@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define deps (quote ("readline-lib" "readline-doc"))) (define implies (quote ("readline-lib" "readline-doc"))) (define pkg-desc "GNU Readline access from Racket") (define pkg-authors (quote (mflatt)))))

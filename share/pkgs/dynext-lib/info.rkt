@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define deps (quote ("base"))) (define pkg-desc "Library for running a C compiler/linker") (define pkg-authors (quote (mflatt)))))

@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define deps (quote ("xrepl-lib" "xrepl-doc"))) (define implies (quote ("xrepl-lib" "xrepl-doc"))) (define pkg-desc "Console-oriented extended REPL for Racket") (define pkg-authors (quote (eli)))))

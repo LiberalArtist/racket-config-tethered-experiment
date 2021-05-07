@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection "typed") (define test-responsibles (quote ((all jay)))) (define deps (quote ("racket-index" "rackunit-gui" "rackunit-lib" "typed-racket-lib" "base" "testing-util-lib"))) (define pkg-desc "Typed Racket types for RackUnit") (define pkg-authors (quote (samth stamourv))) (define version "1.0")))

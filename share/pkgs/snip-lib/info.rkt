@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define deps (quote ("base" ("draw-lib" #:version "1.17")))) (define pkg-desc "implementation (no documentation) part of \"snip\"") (define pkg-authors (quote (mflatt))) (define version "1.2")))

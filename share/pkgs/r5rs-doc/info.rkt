@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define build-deps (quote ("mzscheme-doc" "scheme-lib" "scribble-lib" "r5rs-lib" "compatibility-lib" "racket-doc"))) (define deps (quote ("base"))) (define update-implies (quote ("r5rs-lib"))) (define pkg-desc "documentation part of \"r5rs\"") (define pkg-authors (quote (mflatt)))))

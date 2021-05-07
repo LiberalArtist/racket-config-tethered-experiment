@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define deps (quote ("r6rs-lib" "r6rs-doc"))) (define implies (quote ("r6rs-lib" "r6rs-doc"))) (define pkg-desc "Legacy R6RS (Scheme) language") (define pkg-authors (quote (mflatt)))))

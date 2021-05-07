@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define deps (quote ("pict-snip-lib" "pict-snip-doc"))) (define implies (quote ("pict-snip-lib" "pict-snip-doc"))) (define pkg-desc "Build snips out of picts") (define pkg-authors (quote (robby)))))

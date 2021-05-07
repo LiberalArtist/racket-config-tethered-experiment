@@ -1,0 +1,5 @@
+# Mf-ti3s2
+
+m ?= ti3s2
+
+include Mf-i3s2

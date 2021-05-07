@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection (quote multi)) (define deps (quote (("base" #:version "6.6.0.3") "source-syntax"))) (define pkg-desc "implementation (no documentation) part of \"errortrace\"") (define pkg-authors (quote (mflatt robby florence))) (define version "1.3")))

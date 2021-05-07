@@ -1,0 +1,1 @@
+(module info setup/infotab (#%module-begin (define collection "sasl") (define deps (quote ("sasl-lib" "sasl-doc" "base"))) (define implies (quote ("sasl-lib" "sasl-doc"))) (define pkg-authors (quote (ryanc)))))
