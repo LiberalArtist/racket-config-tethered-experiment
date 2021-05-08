@@ -1,4 +1,0 @@
-EXPORTS
- LZ4_decompress_safe
- LZ4_compressBound
- LZ4_compress_default
