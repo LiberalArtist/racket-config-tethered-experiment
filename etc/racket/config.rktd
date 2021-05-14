@@ -1,4 +1,5 @@
 #hash((config-tethered-console-bin-dir . "/home/philip/code/tmp/racket-config-tethered/bin")
+      (config-tethered-gui-bin-dir . "/home/philip/code/tmp/racket-config-tethered/bin")
       (doc-dir . "/home/philip/code/tmp/racket-config-tethered/share/doc/racket")
       ;; doc-search-dirs ??
       ;; include-search-dirs ??
