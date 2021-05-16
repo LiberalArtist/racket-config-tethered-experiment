@@ -1,4 +1,4 @@
-((root "pkgs/racket-lib")
+(#;(root "pkgs/racket-lib")
  (root "pkgs/main-distribution")
  (root "pkgs/2d")
  ("algol60" "pkgs/algol60")
