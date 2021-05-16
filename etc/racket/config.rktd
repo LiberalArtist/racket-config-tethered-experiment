@@ -13,15 +13,17 @@
       (links-search-files . (#f "/gnu/store/7vy0ikhd3ws5v6jydzx7aipvs4jv7rb9-racket-minimal-8.1/share/racket/links.rktd"))
       (compiled-file-roots . (same "/gnu/store/7vy0ikhd3ws5v6jydzx7aipvs4jv7rb9-racket-minimal-8.1/lib/racket/compiled"))
       ;; NOTE lib-dir seems to be used to write launchers.rktd
-      (lib-dir . "/home/philip/code/tmp/racket-config-tethered/lib/racket")
+      ;;(lib-dir . "/home/philip/code/tmp/racket-config-tethered/lib/racket")
       ;;;;
-      (bin-dir . "/home/philip/code/tmp/racket-config-tethered/bogus/bin")
-      ;;;;;;;;
+      ;;(bin-dir . "/home/philip/code/tmp/racket-config-tethered/bogus/bin")
+      (lib-dir . "/gnu/store/7vy0ikhd3ws5v6jydzx7aipvs4jv7rb9-racket-minimal-8.1/lib/racket")
+      (bin-dir . "/gnu/store/7vy0ikhd3ws5v6jydzx7aipvs4jv7rb9-racket-minimal-8.1/bin")
+      ;;;;
       (absolute-installation? . #t)
       (include-dir . "/gnu/store/7vy0ikhd3ws5v6jydzx7aipvs4jv7rb9-racket-minimal-8.1/include/racket")
       ;; TODO: should there be a #f at the head of lib-search-dirs ??
       (lib-search-dirs . (#f
-                          "/gnu/store/7vy0ikhd3ws5v6jydzx7aipvs4jv7rb9-racket-minimal-8.1/lib/racket"
+                          #;"/gnu/store/7vy0ikhd3ws5v6jydzx7aipvs4jv7rb9-racket-minimal-8.1/lib/racket"
                           "/gnu/store/i9j5661qcbkyc40v7rdx3x20gcfa2nb7-cairo-1.16.0/lib"
                           "/gnu/store/skxf0dmvgrw84pb2yzi1g1hwn0swv9kx-fontconfig-2.13.1/lib"
                           "/gnu/store/gjqq86zakkwvvaz37zljhydfm728g0a7-glib-2.62.6/lib"
