@@ -1,0 +1,4 @@
+[submodule "racket"]
+	path = racket
+	url = https://github.com/mflatt/racket.git
+	branch = tether
