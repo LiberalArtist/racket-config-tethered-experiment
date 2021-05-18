@@ -2,9 +2,18 @@
 all:
 	$(MAKE) minimal
 	$(MAKE) layer-a
+	$(MAKE) layer-b
 
 INIT_LAYER := bin/racket --config /tmp/config-tethered
 RACO_PKG_INSTALL := raco pkg install -i --skip-installed --batch --static-link
+
+.PHONY: layer-b
+layer-b:
+	./layer-a/$(INIT_LAYER)/layer-b/etc/racket -l- raco setup
+	./layer-b/bin/$(RACO_PKG_INSTALL) /tmp/config-tethered/program-b
+	./layer-b/bin/program-a
+	./layer-b/bin/program-b
+
 
 .PHONY: layer-a
 layer-a:
@@ -14,13 +23,9 @@ layer-a:
 
 
 .PHONY: minimal
-MINIMAL := /tmp/config-tethered/minimal
-XONX := $(if $(findstring Darwin,$(shell uname -v)),--enable-xonx)
-minimal: | build
-	cd build && ../racket/racket/src/configure --prefix $(MINIMAL) $(XONX)
-	cd build && $(MAKE)
-	cd build && $(MAKE) install
-	./minimal/bin/raco pkg install base
-
-build:
-	mkdir build
+XONX := $(if $(findstring Darwin,$(shell uname -v)),"--enable-xonx","")
+minimal:
+	make -C racket unix-style \
+	  PKGS="base" \
+	  PREFIX="/tmp/config-tethered/minimal" \
+	  CONFIGURE_ARGS=$(XONX)
