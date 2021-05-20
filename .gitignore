@@ -1,6 +1,8 @@
+/minimal/
+/build/
 *~
 \#*
 .\#*
 .DS_Store
 compiled/
-/doc/
+
