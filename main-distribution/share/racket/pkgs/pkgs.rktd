@@ -31,6 +31,7 @@
           (catalog "at-exp-lib")
           "a346d22135cb7cefc6bef364291c64643787606f"
           #t))
+      #;
       ("base"
        .
        #s(pkg-info
@@ -758,6 +759,7 @@
           (catalog "racket-index")
           "d8c5d5c2bcece32c17461aa5fa7e5a595c59bdb7"
           #t))
+      #;
       ("racket-lib"
        .
        #s(pkg-info
