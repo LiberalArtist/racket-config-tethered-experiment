@@ -1911,6 +1911,7 @@
 [file-position (cl-> [(-Port) -Nat]
                      [(-Port (Un -Integer (-val eof))) -Void])]
 [file-position* (-> -Port (Un -Nat (-val #f)))]
+[file-truncate (-> -Port -Nat -Void)]
 
 ;; Section 13.1.4
 [port-count-lines! (-> (Un -Input-Port -Output-Port) -Void)]
@@ -1970,6 +1971,7 @@
 [port-file-identity (-> (Un -Input-Port -Output-Port) -PosInt)]
 
 ;; Section 13.1.6
+[string-port? (-> -Port B)]
 [open-input-string (->opt -String [Univ] -Input-Port)]
 [open-input-bytes (->opt -Bytes [Univ] -Input-Port)]
 [open-output-string
@@ -2125,6 +2127,19 @@
 
 [transplant-input-port (->opt -Input-Port (-opt (-> (-values (list (-opt -PosInt) (-opt -Nat) (-opt -PosInt))))) -PosInt [Univ (-> ManyUniv)] -Input-Port)]
 [transplant-output-port (->opt -Output-Port (-opt (-> (-values (list (-opt -PosInt) (-opt -Nat) (-opt -PosInt))))) -PosInt [Univ (-> ManyUniv)] -Output-Port)]
+
+[filter-read-input-port
+ (let* ([special-func (-> (-opt -PosInt) (-opt -Nat) (-opt -PosInt) (-opt -Nat) Univ)]
+        [wrap (-mu x (Un (-evt x)
+                         -Nat
+                         special-func
+                         -Input-Port
+                         (-val eof)))]
+        [read-wrap (-> -Bytes wrap wrap)])
+   (-poly (a)
+          (->opt -Input-Port read-wrap
+                 (-> -Bytes -Nat (-opt (-evt a)) (-opt wrap) (-opt wrap))
+                 [Univ] -Input-Port)))]
 
 ;; Section 13.1.10.3
 [eof-evt (-> -Input-Port (-evt (-val eof)))]
@@ -3464,6 +3479,7 @@
 (open-output-file
  (->key
   -Pathlike
+  #:permissions -Nat #f
   #:mode
   (one-of/c 'binary 'text)
   #f
@@ -3474,6 +3490,7 @@
 (open-input-output-file
  (->key
   -Pathlike
+  #:permissions -Nat #f
   #:mode
   (one-of/c 'binary 'text)
   #f
@@ -3494,6 +3511,9 @@
       #:mode
       (one-of/c 'binary 'text)
       #f
+      #:permissions
+      -Nat
+      #f
       a)))
 (call-with-input-file* (-poly (a) (->key -Pathlike (-> -Input-Port a) #:mode (Un (-val 'binary) (-val 'text)) #f a)))
 (call-with-output-file*
@@ -3507,6 +3527,9 @@
    #f
    #:mode
    (one-of/c 'binary 'text)
+   #f
+   #:permissions
+   -Nat
    #f
    a)))
 (with-input-from-file (-poly (a) (->key -Pathlike (-> a) #:mode (Un (-val 'binary) (-val 'text)) #f a)))
@@ -3522,7 +3545,10 @@
       #:mode
       (one-of/c 'binary 'text)
       #f
-      a)))
+      #:permissions
+      -Nat
+      #f
+   a)))
 (port->lines
  (->optkey [-Input-Port]
            #:line-mode (one-of/c 'linefeed 'return 'return-linefeed 'any 'any-one) #f

@@ -156,7 +156,7 @@ relevant.
 @section[#:tag "stxobj-model"]{Syntax Objects}
 
 A @deftech{syntax object} combines a simpler Racket value, such as a symbol or pair, with
-@tech{lexical information}, source-location information, @tech{syntax properties}, and @tech{tamper
+@tech{lexical information}, @tech{source-location} information, @tech{syntax properties}, and @tech{tamper
 status}. The @deftech{lexical information} of a @tech{syntax object} comprises a set of @tech{scope
 sets}, one for each @tech{phase level}. In particular, an @tech{identifier} is represented as a syntax
 object containing a @tech{symbol}, and its @tech{lexical information} can be combined with the global
@@ -919,7 +919,9 @@ are visited. More generally, initiating expansion at @tech{phase}
 @tech{visits} and @tech{instantiations} apply to @tech{available}
 modules in the enclosing @tech{namespace}'s @tech{module registry};
 a per-registry lock prevents multiple threads from concurrently
-instantiating and visiting available modules.
+instantiating and visiting available modules. On-demand instantiation
+of available modules uses the same reentrant lock as
+@racket[namespace-call-with-registry-lock].
 
 When the expander encounters @racket[require] and @racket[(require
 (for-syntax ....))] within a @tech{module context}, the resulting
