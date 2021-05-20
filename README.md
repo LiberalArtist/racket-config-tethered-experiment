@@ -11,7 +11,3 @@ Run `make` (or `make all`) to build everything, but note that the
 up, try `git clean -xdi`: some changes may necessitate cleaning in the
 `racket/` submodule, too. To re-run a particular step, try `make
 minimal`, `make layer-a`, or `make layer-b`.
-
-Observe that `./bogus-unused-bin-dir-a/program-a` and
-`./bogus-unused-bin-dir-b/program-b` are currently being created, but
-probably shouldn't be.

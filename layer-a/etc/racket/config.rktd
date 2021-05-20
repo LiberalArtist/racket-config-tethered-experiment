@@ -18,7 +18,7 @@
       (compiled-file-roots
        . (same
           "/tmp/config-tethered/minimal/lib/racket/compiled"))
-      (bin-dir . "/tmp/config-tethered/bogus-unused-bin-dir-a")
+      (bin-dir . "/tmp/config-tethered/layer-a/bin")
       (bin-search-dirs
        . (#f
           "/tmp/config-tethered/minimal/bin"))

@@ -22,11 +22,10 @@
       (compiled-file-roots
        . (same
           "/tmp/config-tethered/minimal/lib/racket/compiled"))
-      (bin-dir . "/tmp/config-tethered/bogus-unused-bin-dir-b")
+      (bin-dir . "/tmp/config-tethered/layer-b/bin")
       (bin-search-dirs
        . (#f
-          ;; ??? Is this correct ???
-          "/tmp/config-tethered/bogus-unused-bin-dir-a"
+          "/tmp/config-tethered/layer-a/bin"
           "/tmp/config-tethered/minimal/bin"))
       (apps-dir . "/tmp/config-tethered/layer-b/share/applications")
       ;; NOTE `no @racket['apps-dir] search needed`
