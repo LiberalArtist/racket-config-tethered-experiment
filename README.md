@@ -18,6 +18,28 @@ Run `make` (or `make all`) to build everything, but note that the
 [`Makefile`](./Makefile) ***does not track dependencies***. To clean
 up, try `git clean -xdi`: some changes may necessitate cleaning in the
 `racket/` submodule, too. To re-run a particular step,
-try `make minimal`, `make layer-a`, or `make layer-b`.
+try `make minimal`, `make layer-a`, `make layer-b`, or `make main-distribution`.
 
-Note that "everything" doesn't include `main-distribution` right now.
+## Status
+
+  - On Kubuntu 21.04, things get as far as:
+    ```
+	$ ./main-distribution/bin/plt-games
+    standard-module-name-resolver: collection not found
+      for module path: (lib "games/main.rkt")
+      collection: "games"
+      in collection directories:
+       /home/philip/.local/share/racket/8.1.0.6/collects
+       /tmp/config-tethered/minimal/share/racket/collects/
+       /tmp/config-tethered/minimal/share/racket/pkgs/racket-lib
+       /tmp/config-tethered/minimal/share/racket/pkgs/base
+    ```
+  - On Mac OS, `racket/draw/unsafe/glib` fails with the following error,
+    which is probably a problem with my local environment:
+	```
+    raco setup:   ffi-lib: could not load foreign library
+    raco setup:     path: libgobject-2.0.0.dylib
+    raco setup:     system error: dlopen(libgobject-2.0.0.dylib, 6): Library not loaded: /usr/local/opt/libffi/lib/libffi.6.dylib
+    raco setup:     Referenced from: /usr/local/lib/libgobject-2.0.0.dylib
+    raco setup:     Reason: image not found
+    ```
