@@ -2,1237 +2,1237 @@
        .
        #s(pkg-info
           (catalog "2d")
-          "eac2616977836af7a5f92bded547cc6d683b9dcd"
+          "ffeb6696e4762794414ca3d78474bde62b768bd9"
           #t))
       ("2d-doc"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "2d-doc")
-          "6587807c72121dfadfb62c59edd33f123124ad35"
+          "5359600f8695ff769525f03479155a8a3abed954"
           #t
           "2d"))
       ("2d-lib"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "2d-lib")
-          "378172f5f5ec64be82516920f803da9416f7caa9"
+          "c485f969cf4da39cccd9e2e226ffaa0eeb8a6b27"
           #t
           "2d"))
       ("algol60"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "algol60")
-          "34d17dee5af92d7dfbac17b6f69b518851145a9d"
+          "0b024afc8c097e83a74009da8da525ef60af2912"
           #t
           "algol60"))
       ("at-exp-lib"
        .
        #s(pkg-info
           (catalog "at-exp-lib")
-          "dea0a176b45e3bc32e9824d2910f9bfa5c5eebb6"
+          "8c1b15a7f1b3a28e9afa75585c9365999c3e1e83"
           #t))
       #;
       ("base"
        .
        #s(pkg-info
           (catalog "base")
-          "b1aa817baa6bf2677f9003d47d787a4b515aed6e"
+          "a58b444b8fd7bbee3bd806cc2ace7f7c9197fd5e"
           #t))
       ("cext-lib"
        .
        #s(pkg-info
           (catalog "cext-lib")
-          "03b002b5285b85b9868cc00bd4dc2ab52b7f44eb"
+          "75852d459ddaf435e9a17e988f5cf34e21f29002"
           #t))
       ("class-iop-lib"
        .
        #s(pkg-info
           (catalog "class-iop-lib")
-          "315ed9862e7948e9e922bf5575c1742db9a37704"
+          "ef901eca5daf0d8275d7de1d478481f6fecd72dc"
           #t))
       ("compatibility"
        .
        #s(pkg-info
           (catalog "compatibility")
-          "4030e57b8924ecfe7d710d5920e5ae248d1c625d"
+          "63a615f08d25513342fb660dba446301fce7a3e2"
           #t))
       ("compatibility-doc"
        .
        #s(pkg-info
           (catalog "compatibility-doc")
-          "45233eb61b4f0eed320c8f5e5efb235d5e8aecdd"
+          "0a1bd37a14a2225aaa5f165e19b10595601cecff"
           #t))
       ("compatibility-lib"
        .
        #s(pkg-info
           (catalog "compatibility-lib")
-          "52530ceb3332633f190aaecfe27319e8ea8f9040"
+          "69603053eb2f71f7a5994475de6a02ff85bb0ea1"
           #t))
       ("compiler"
        .
        #s(pkg-info
           (catalog "compiler")
-          "3e6101bfb63231960a69af7b2db1fcc1029d79b6"
+          "247d7a6e37ef308e03b5a7060d342e3627bcf05f"
           #t))
       ("compiler-lib"
        .
        #s(pkg-info
           (catalog "compiler-lib")
-          "4c4b699e7c644d07f82a60a7a924c86badd24df0"
+          "365d6f0b0d6c79b148a09777f6b9ef6c990a9e49"
           #t))
       ("contract-profile"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "contract-profile")
-          "a977087ad3b5c8fdff9bb4d455faf400d84c6293"
+          "b21e41dc2b7bb62a5c1ff5cd87511b2df3d8ee30"
           #t
           "contract-profile"))
       ("data"
        .
        #s(pkg-info
           (catalog "data")
-          "96f1c3120a5008d2d3dd5e38bf8a4fc5c7f404b8"
+          "f01cc0a77ecf6507c4d7f6cf087289ed8f840657"
           #t))
       ("data-doc"
        .
        #s(pkg-info
           (catalog "data-doc")
-          "9c89d001361cb2e8ac2bc44105909605b1b3b1d2"
+          "1dd157a04f91efd414112dbc61972a8a2868e013"
           #t))
       ("data-enumerate-lib"
        .
        #s(pkg-info
           (catalog "data-enumerate-lib")
-          "5228144b34cb31d220e5fc48754b752b3bc6b039"
+          "3a1038c2e25775a050bcb89c2f7418bd8f91215f"
           #t))
       ("data-lib"
        .
        #s(pkg-info
           (catalog "data-lib")
-          "232b26d1736635372bd9aa69370880d12bd4bb16"
+          "1b1642195b0fbc02adf9245db73b1c2bc7d0e67b"
           #t))
       ("datalog"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "datalog")
-          "b09981300c1ba74c479a4ddaffefe9fb5e6eca6f"
+          "04f721b79ebb61df1d740176b193adcb70abc699"
           #t
           "datalog"))
       ("db"
        .
        #s(pkg-info
           (catalog "db")
-          "11e08882d80a5fe67da44291465bdb1d59d0b91e"
+          "be13a23b8d0805787a75329dc21ae44b075e037a"
           #t))
       ("db-doc"
        .
        #s(pkg-info
           (catalog "db-doc")
-          "2fee17acc7054812cd7feaf020387ae0dadc405e"
+          "afe0cbeae198aed5259523c05026b291de2a6367"
           #t))
       ("db-lib"
        .
        #s(pkg-info
           (catalog "db-lib")
-          "68ff4cf767b8a96c49e096c313d7624beed6bd16"
+          "bebbd5a0126d796dfda99d3272fdbb9fc07cbec2"
           #t))
       ("deinprogramm"
        .
        #s(pkg-info
           (catalog "deinprogramm")
-          "5073099f34eb4aa5492fb1c946f4befa5d2c7436"
+          "ae0297d60d1f97358596b8de30dc3d8624f4b1ba"
           #t))
       ("deinprogramm-signature"
        .
        #s(pkg-info
           (catalog "deinprogramm-signature")
-          "628d14585bf77f71c4420c828fb1d0f155e83f10"
+          "caedcb9aa3ba88e33548d5fcea220aef07ad6171"
           #t))
       ("distributed-places"
        .
        #s(pkg-info
           (catalog "distributed-places")
-          "55552e90135c0a56fac170a028d6bfbd148bdaed"
+          "3647f91a0fbf9dcc1585aa58c3d654dc5cedd132"
           #t))
       ("distributed-places-doc"
        .
        #s(pkg-info
           (catalog "distributed-places-doc")
-          "06bb88fb4ffc16d40140d651ed504aaff33056ae"
+          "8e2d75ef0e34a7e15adddc68e38f77b1b6145b97"
           #t))
       ("distributed-places-lib"
        .
        #s(pkg-info
           (catalog "distributed-places-lib")
-          "9ec6269e4df24464159ec81bf7d7f7e74e840871"
+          "98be3502f60b4ea0f4f68c8617e4a7af34e9523e"
           #t))
       ("draw"
        .
        #s(pkg-info
           (catalog "draw")
-          "427f0bb1aa2072befeb902f9c92a7698d5ee3989"
+          "b90a7d4a11b604fb3dc104083375ae0411987aa4"
           #t))
       ("draw-doc"
        .
        #s(pkg-info
           (catalog "draw-doc")
-          "e80e36931b7c9f68a3abe92ff7b297a3ec89cf7e"
+          "61c19058c13ac5cfb15e090748b80b7e31015dac"
           #t))
       ("draw-lib"
        .
        #s(pkg-info
           (catalog "draw-lib")
-          "d30ad39012f4757b6c13615412cfc85b4d18eb98"
+          "45491a70cc61824ec170e33426a3f80df7ec1247"
           #t))
       ("drracket"
        .
        #s(pkg-info
           (catalog "drracket")
-          "89aabc92c06f4940ea6f75a2f256142e3438c1ba"
+          "0fd6edbf7d06157863e84f400e509e4665ef8647"
           #t))
       ("drracket-plugin-lib"
        .
        #s(pkg-info
           (catalog "drracket-plugin-lib")
-          "80d38710d072bd6d6d889ff8d345ffeb11193332"
+          "f9d3aaaefcc6b69edda576118177fdfaa09056a2"
           #t))
       ("drracket-tool"
        .
        #s(pkg-info
           (catalog "drracket-tool")
-          "74d2d91ea2afdfacf2b6f0ad65fa3d9a0ab493a4"
+          "492a73757db6e0e0605fee8bcc20d563b16c37a3"
           #t))
       ("drracket-tool-doc"
        .
        #s(pkg-info
           (catalog "drracket-tool-doc")
-          "1d3abf3bc22880ff77fdb97d2ef2de51da8afe50"
+          "40e1b4ef1af44577c91e441036483e0ffe258c33"
           #t))
       ("drracket-tool-lib"
        .
        #s(pkg-info
           (catalog "drracket-tool-lib")
-          "dc2201e2ee396efae6b996aecba18b099a19ec44"
+          "17907a27937ffa4e2e9ca133b8ae653543ca3f8e"
           #t))
       ("ds-store"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "ds-store")
-          "a02c93bb5cc339fcc2c1daa7ee78fc242e9949f9"
+          "a048e90f4003624da2c35d15d939822e800e259f"
           #t
           "ds-store"))
       ("ds-store-doc"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "ds-store-doc")
-          "b118c5450db5c8854528bd07a119d50fe54412bd"
+          "6218188a0521ae75b89b17a8d3b942c0e8a622dd"
           #t
           "ds-store"))
       ("ds-store-lib"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "ds-store-lib")
-          "fbe336b7a18e200ec20c1f4fcd6914b282bc83d4"
+          "f5ae1b680b60e15177bd4a503b612cbe4abfb9f6"
           #t
           "ds-store"))
       ("dynext-lib"
        .
        #s(pkg-info
           (catalog "dynext-lib")
-          "08b34dbee8813bcd34ff79b5d639ab1fb346889b"
+          "e396b4dde3431134e90389674a6abfa2d28f6429"
           #t))
       ("eli-tester"
        .
        #s(pkg-info
           (catalog "eli-tester")
-          "98d1c2187da94bdfdf671389513d36935819cafd"
+          "571e6d349ba270a5230a5397d678af8e7fbb7817"
           #t))
       ("eopl"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "eopl")
-          "4885df8cc8fdf77b9bc8445e462d32631a5eb7f8"
+          "f130c9e67f4068ae3363b50201457e8077fa81b0"
           #t
           "eopl"))
       ("errortrace"
        .
        #s(pkg-info
           (catalog "errortrace")
-          "97e5c81238f4cec9812ed3c792e3c7e6f993a8f6"
+          "882db05301291e4d999ba834badfe21c8cd85eea"
           #t))
       ("errortrace-doc"
        .
        #s(pkg-info
           (catalog "errortrace-doc")
-          "462eee334cdf45e9593c385b917d9c0a7ca418bd"
+          "3f4cabeb0306ac0989213e87d6246ea4f3171c18"
           #t))
       ("errortrace-lib"
        .
        #s(pkg-info
           (catalog "errortrace-lib")
-          "5b0d18760bb7dbfe2a0f874aab2ad962e6bbdab2"
+          "29dec76bfe302a1fc8b969656c00a0f2a5581dd4"
           #t))
       ("frtime"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "frtime")
-          "7edb9279cd222b0bfc8428915a8aeba74c4d0770"
+          "a8e036c1ded8114177f88a98a0da2814cd65e620"
           #t
           "frtime"))
       ("future-visualizer"
        .
        #s(pkg-info
           (catalog "future-visualizer")
-          "92502569f9f0621cbacdef4692bc6c7c78b55969"
+          "3916f9516cecc0b8e52a0e19af520c7c51d36516"
           #t))
       ("future-visualizer-pict"
        .
        #s(pkg-info
           (catalog "future-visualizer-pict")
-          "8a07a22e37a5b71bb84558b89b8ce578224cedae"
+          "556a1eb04961f37cbdf18bdbc8808ed47f98da33"
           #t))
       ("future-visualizer-typed"
        .
        #s(pkg-info
           (catalog "future-visualizer-typed")
-          "9dab1488292edf121fdb6534306b59565cc7dbd1"
+          "6b4d934f18d8e7d977c2671542a755ca1d3ed9aa"
           #t))
       ("games"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "games")
-          "9a214a0d1baa25105de57788ac146b30e6c487b6"
+          "ab3cb743af7fd90cf877d251dfa1722a9db2ae34"
           #t
           "games"))
       ("gui"
        .
        #s(pkg-info
           (catalog "gui")
-          "d9930ae856b87f90385f126d938a6f9d3b31b31a"
+          "918232ab81463d60b1266b2f53ae00ecee27833a"
           #t))
       ("gui-doc"
        .
        #s(pkg-info
           (catalog "gui-doc")
-          "0f657b2881e5d7d28a7384073c016e6dbd45a8ec"
+          "aa4b5e673353f913db3a276612015724d67f8b3f"
           #t))
       ("gui-lib"
        .
        #s(pkg-info
           (catalog "gui-lib")
-          "af386bce8b28fc4779fccb2cfb912686b8ea5eb3"
+          "910308c80d3a069f168e8d0b65c06c73ee6dad3e"
           #t))
       ("gui-pkg-manager-lib"
        .
        #s(pkg-info
           (catalog "gui-pkg-manager-lib")
-          "599398db8c648c1094e83a5cc26cb15c1d1265b4"
+          "7dbf3fbc80c00c48fd796822e5c191e91bd73c39"
           #t))
       ("htdp"
        .
        #s(pkg-info
           (catalog "htdp")
-          "6a4556004b1eea5ec2f69a806d894e15e1e757a1"
+          "1ae49e6343114d411e0a3263f313ec320faf202e"
           #t))
       ("htdp-doc"
        .
        #s(pkg-info
           (catalog "htdp-doc")
-          "b0028d1248c30aae1440f625d7aa76fc15ce7b66"
+          "976906c880e197b5e29c1c1bb9768f8a9bf62580"
           #t))
       ("htdp-lib"
        .
        #s(pkg-info
           (catalog "htdp-lib")
-          "ec59abcdf6a0695522c125f1927a4999a46e7bf0"
+          "f6b3ddedd71735a45c69ebbfb661d76dbcaea68f"
           #t))
       ("html"
        .
        #s(pkg-info
           (catalog "html")
-          "01b2da9af4c6c1897548fbacb85ba5088499bad5"
+          "c23f805b9c69066da7497819da18db1b8e8e2987"
           #t))
       ("html-doc"
        .
        #s(pkg-info
           (catalog "html-doc")
-          "e8fa124fcf5d39b0c9a9e6294e63eae5c5703522"
+          "a7a3a555959e8e877dbf2b7bea9d77a02837ab8a"
           #t))
       ("html-lib"
        .
        #s(pkg-info
           (catalog "html-lib")
-          "2a773d1c6dcd63a2b3bcda49761ceab02c0045d1"
+          "70f364a32ce94f55885dfde5a6c832d72eab8377"
           #t))
       ("icons"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "icons")
-          "7240e0b37b2cde4575c968223bb8b0c618465411"
+          "4d02c3d96d2381564bc45742d65e0db698469a83"
           #t
           "icons"))
       ("images"
        .
        #s(pkg-info
           (catalog "images")
-          "2439399c639fd4d8af17d788a8fac9f678728c12"
+          "068d945b5604d1aa101ac200b754209e029bf4ad"
           #t))
       ("images-doc"
        .
        #s(pkg-info
           (catalog "images-doc")
-          "59e5da628e602b599700eee6ad02b4baf5899f43"
+          "e5b0d19192413ed8c2731a4cdb89626ecc77c612"
           #t))
       ("images-gui-lib"
        .
        #s(pkg-info
           (catalog "images-gui-lib")
-          "94aa7f74c9144ab0b113a1f66493b495880e57df"
+          "1bc8df7d32a1784e11e96eb355cae9a87f06a193"
           #t))
       ("images-lib"
        .
        #s(pkg-info
           (catalog "images-lib")
-          "341419a4490d02d9d24432346a873376ded95d9f"
+          "31cbfacdafb7bad338432fd273e6885bdaa98223"
           #t))
       ("lazy"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "lazy")
-          "398b07c641a0072ab0f85332d012487d78909904"
+          "1f1839edb2c483aa29a25c8ebb7cdf8a79e66d32"
           #t
           "lazy"))
       ("macro-debugger"
        .
        #s(pkg-info
           (catalog "macro-debugger")
-          "7a49c38a98409658704aa918c7c19f4f8de77a46"
+          "bf3349f164b19790c9f952a302182f68fe5c2565"
           #t))
       ("macro-debugger-text-lib"
        .
        #s(pkg-info
           (catalog "macro-debugger-text-lib")
-          "04a6dcccb3fe79e53fe7f7ac14ef1fa8f3984870"
+          "4fba22ba852a8968546c5a071713d68f7346d3e9"
           #t))
       ("main-distribution"
        .
        #s(pkg-info
           (catalog "main-distribution")
-          "9f439a8772fbbe1c6bdbfe92807537aa316b19a0"
+          "fef829f9cc03779de296b410b9f0e2dfc282a2d6"
           #f))
       ("make"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "make")
-          "68399ba335883c973e6f7655b782e9e849627def"
+          "d131956fb656133ae4f28c172d4fc2e8728f1d6c"
           #t
           "make"))
       ("math"
        .
        #s(pkg-info
           (catalog "math")
-          "4dff26e21499ca542eb8f2e99e9bf76e402f27f0"
+          "5a825bbd9a12998d5d0e9f264846b159349fb2c8"
           #t))
       ("math-doc"
        .
        #s(pkg-info
           (catalog "math-doc")
-          "ebfa9feeb2f25292190bd42e98dc070d0fa8ae7c"
+          "a95426c52cc8d18546cedadafee14ce567fa7e17"
           #t))
       ("math-lib"
        .
        #s(pkg-info
           (catalog "math-lib")
-          "0e9a295ccdea8886dc41024f6ead9003bad47ac6"
+          "018f71467727f341c2920d45a8fb104e42a6871f"
           #t))
       ("mysterx"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "mysterx")
-          "6476177e5d71baa15871021faee810fb6f5c49fc"
+          "faae8260b887a82067cb2538d7b1640e9521816f"
           #t
           "mysterx"))
       ("mzcom"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "mzcom")
-          "4f534209e1cf296cf5c3f3ad438f6c8a7b38740f"
+          "9bd28836d52e64fdb9d7a30557cf6fbd5fb1634b"
           #t
           "mzcom"))
       ("mzscheme"
        .
        #s(pkg-info
           (catalog "mzscheme")
-          "39bdda989726993bd8d61d5e0dc515da87c182fc"
+          "7a6b9a2789ec9f926bbc26a00f2f15a5c570f5a7"
           #t))
       ("mzscheme-doc"
        .
        #s(pkg-info
           (catalog "mzscheme-doc")
-          "6d58c9d971d645dca61c6dcba101732082f1a252"
+          "4caf26092c61005a309ab69e1cf0190b8119f6ab"
           #t))
       ("mzscheme-lib"
        .
        #s(pkg-info
           (catalog "mzscheme-lib")
-          "5816961968a7b5576145b8950708f1dec08d7cc1"
+          "3ce2f203dadae8d064c997f8e7ecfb5fab105c8f"
           #t))
       ("net"
        .
        #s(pkg-info
           (catalog "net")
-          "2640652cc7fcd2d012dd19e64c8b533890afbb88"
+          "5aba22e898760593d901be8a0d0717173ed70092"
           #t))
       ("net-cookies"
        .
        #s(pkg-info
           (catalog "net-cookies")
-          "a96a3d5364a83604e65c6e46edfae8c7314e6948"
+          "6fdbd5fcef956093fb2bff2d1e35dce479dab265"
           #t))
       ("net-cookies-doc"
        .
        #s(pkg-info
           (catalog "net-cookies-doc")
-          "5eed2363d26a6e1e08b194f752f5b29abb7a1f4e"
+          "1acc4a657b00e43991f41ef606156702e7bd02ef"
           #t))
       ("net-cookies-lib"
        .
        #s(pkg-info
           (catalog "net-cookies-lib")
-          "953b8219f133c70c1d3585210bed016a00cc5c66"
+          "63ebdba90b8b47068468b150b46d4c91496acc6c"
           #t))
       ("net-doc"
        .
        #s(pkg-info
           (catalog "net-doc")
-          "eef511babddb00d05bbd7988531b21c17514f088"
+          "66c69df7f01b995f34fe4cbe8d5ee5fcb7afa96e"
           #t))
       ("net-lib"
        .
        #s(pkg-info
           (catalog "net-lib")
-          "053799d730230b4b4fa54275f54dd770887755ef"
+          "59861fa0d20de125b9aa1961394f1cf4674ac430"
           #t))
       ("optimization-coach"
        .
        #s(pkg-info
           (catalog "optimization-coach")
-          "0ebeac161fbcd7a37244ccf77c87962115082a9b"
+          "febae74134f6082d861293c0e4cd51781d5e4541"
           #t))
       ("option-contract"
        .
        #s(pkg-info
           (catalog "option-contract")
-          "5beb43cd6a1c1d58722a3c233a3f6927a5de6ef5"
+          "b5c1c25b74999ab26e7305ffa65392a7c7b650a2"
           #t))
       ("option-contract-doc"
        .
        #s(pkg-info
           (catalog "option-contract-doc")
-          "65c08546179099587e55e706eaa78c4b62e65890"
+          "4883fae01969bd2589607032977776f1ea925be0"
           #t))
       ("option-contract-lib"
        .
        #s(pkg-info
           (catalog "option-contract-lib")
-          "5677bd0f7bbcad7d9574214fdc3d95e4852d1286"
+          "75a52650268aafe57e48e020b385c6dceb2bb838"
           #t))
       ("parser-tools"
        .
        #s(pkg-info
           (catalog "parser-tools")
-          "d40567a24ae63974994aaf82f13453b6d25e6aff"
+          "ae76dfd0d90370d16306b37014e3a971c962de16"
           #t))
       ("parser-tools-doc"
        .
        #s(pkg-info
           (catalog "parser-tools-doc")
-          "ad371e61371707bc4ba7b2edbaa40fdc44fc4642"
+          "61a40fadb5c33b0719b27238a706dc3989320925"
           #t))
       ("parser-tools-lib"
        .
        #s(pkg-info
           (catalog "parser-tools-lib")
-          "7c42516ae1b0facc5624ecd4a1164164f4fe80d5"
+          "68ad8025630a0672efd0d399950401d7e90e82c1"
           #t))
       ("pconvert-lib"
        .
        #s(pkg-info
           (catalog "pconvert-lib")
-          "7df19730955e70c20ad18689452b6530dc204692"
+          "b5019a3e004558e9be36898504b89ed14c197e12"
           #t))
       ("pict"
        .
        #s(pkg-info
           (catalog "pict")
-          "40a48574d8bc5f9533c8e19184f479b2cfcb7291"
+          "4183de3ee60a24b15517cbee7420a338062240d7"
           #t))
       ("pict-doc"
        .
        #s(pkg-info
           (catalog "pict-doc")
-          "62ce5fba71c132c675808ede63ee3e8806e4d4ab"
+          "cbfb66bf43317c57aa23d8f9100e0c175c7b3789"
           #t))
       ("pict-lib"
        .
        #s(pkg-info
           (catalog "pict-lib")
-          "bb665c7535b121cca2b077f9429818807b340b12"
+          "c81a3f4d3dd0a3f5573ae980720e1274efbc29d1"
           #t))
       ("pict-snip"
        .
        #s(pkg-info
           (catalog "pict-snip")
-          "5a1386a67e326536827a4e37afcb7b9ee5ed3d3f"
+          "ec8b8b1668f9432e4089393620acf998abb49f69"
           #t))
       ("pict-snip-doc"
        .
        #s(pkg-info
           (catalog "pict-snip-doc")
-          "d8b7f6618bf3be36f89158e7c0094714b4ef43a7"
+          "9e043b5599b33ad08b55b87def332b860375a451"
           #t))
       ("pict-snip-lib"
        .
        #s(pkg-info
           (catalog "pict-snip-lib")
-          "144741ce0202251a935495b7c9a18065dccc3f5b"
+          "5b1d986c4403c0f05b7778e6f46062d08dbeed31"
           #t))
       ("picturing-programs"
        .
        #s(pkg-info
           (catalog "picturing-programs")
-          "aec4ba49154508fbbe8ebe1d76fd14ff6441f2a7"
+          "697c37eceb98f039c1e242aa43e2941c439d6e9e"
           #t))
       ("plai"
        .
        #s(pkg-info
           (catalog "plai")
-          "70c063210be64d1962aef741284c49eb29396527"
+          "26e2b626940dbd498e2e53d0ba4d6d5db849ef94"
           #t))
       ("plai-doc"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "plai-doc")
-          "fbfb2ae4cb0f6d0d043d62b6d59fdf9bdba06c44"
+          "3d56d00a9cd1742f96fed032dfa40d5c8b8d9f9e"
           #t
           "plai"))
       ("plai-lib"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "plai-lib")
-          "92870fd331f09864eb64b3c6f97973237ac30afa"
+          "99127c0b60fd1d356161b537323dab614c3b8385"
           #t
           "plai"))
       ("planet"
        .
        #s(pkg-info
           (catalog "planet")
-          "d2379d46aabfa48e7e8969986f81fc6be6cae81a"
+          "188112f44bdaa6a75beab7f18d0f27d57f87aede"
           #t))
       ("planet-doc"
        .
        #s(pkg-info
           (catalog "planet-doc")
-          "97c4f1b101637a60ecdd7f6c0b07d476a53e2263"
+          "95329b30de0eb48f9040e48a2bf9d2121240fff9"
           #t))
       ("planet-lib"
        .
        #s(pkg-info
           (catalog "planet-lib")
-          "be1d4b4f42289fd02e0b51210f854086c11029c2"
+          "f1dfa689a48aba3a73a49b1815cdd51ec6862686"
           #t))
       ("plot"
        .
        #s(pkg-info
           (catalog "plot")
-          "706be9e6aea2bcccf922cac730bfae4e95513c98"
+          "114fb4338102bead64849082f99eba516393a637"
           #t))
       ("plot-compat"
        .
        #s(pkg-info
           (catalog "plot-compat")
-          "968bac925351173eb4ddcc8a442f1260fd5ead85"
+          "8855e13e63fa84328c03975bfa3fcecf13098ffb"
           #t))
       ("plot-doc"
        .
        #s(pkg-info
           (catalog "plot-doc")
-          "d1dbd88da188e657531c7f14cbf9f3c5ea640fd9"
+          "3aaa623da439c0512bcbe446e20c86b7bc42c648"
           #t))
       ("plot-gui-lib"
        .
        #s(pkg-info
           (catalog "plot-gui-lib")
-          "9cfc287641eb27fb6471443126b4777b6550afb6"
+          "813cd85625b679a24390d8bdac8baaf2fbda2835"
           #t))
       ("plot-lib"
        .
        #s(pkg-info
           (catalog "plot-lib")
-          "bfe6bb88c720eb60506924ab8c4fba66f552404a"
+          "78c6e7d63670eeeaef80c7af4541408549946a81"
           #t))
       ("preprocessor"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "preprocessor")
-          "cd4c5687a97e824a82a276342398ada814390cbf"
+          "527cec94bccb140fbb4b056d392f66152b0a0c3c"
           #t
           "preprocessor"))
       ("profile"
        .
        #s(pkg-info
           (catalog "profile")
-          "114fd87f30b43093d6fcbec7047bd4a0eb0d18a7"
+          "81f2c0f1696ea4bf9217526f31aa6043e13c42a1"
           #t))
       ("profile-doc"
        .
        #s(pkg-info
           (catalog "profile-doc")
-          "2ae71f0f873bd4e89c33475667ac2c05f4afdf41"
+          "f7d0043425bb5d7ebebf5c7a49e2bd0251744bfe"
           #t))
       ("profile-lib"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "profile-lib")
-          "951e9c6a88ac1a32c0a122cb844d9d513f73aa23"
+          "5c04a9578614495dee051d7e9613389f04866fa5"
           #t
           "profile"))
       ("quickscript"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "quickscript")
-          "1a413feb919aa0d6437f6d5ba1d7101f0ebb9c80"
+          "e304aa6c21a68e4da935e1c5bbe8ca557497fdcd"
           #t
           "quickscript"))
       ("r5rs"
        .
        #s(pkg-info
           (catalog "r5rs")
-          "597d77cf3b9a665cb4db7022274066e90c2653f6"
+          "1b709d4674df08854f233a8572e38cc6a37b90ba"
           #t))
       ("r5rs-doc"
        .
        #s(pkg-info
           (catalog "r5rs-doc")
-          "9688227e8d7f38f903abe6d594bd69730c072009"
+          "776d5baab0cfd60efba5d1191ee587b2aab21a1f"
           #t))
       ("r5rs-lib"
        .
        #s(pkg-info
           (catalog "r5rs-lib")
-          "e5d8e45c5cb0e31a443452cc4d24e67268d939ea"
+          "7a9e4084ff8229e70a364d2746a2218c141b1ea6"
           #t))
       ("r6rs"
        .
        #s(pkg-info
           (catalog "r6rs")
-          "eb6840b16769490bfdf6d44cf280cc50cc52dd5c"
+          "c2a452afca9f46ebf2678a3aa91348f3dd3b691f"
           #t))
       ("r6rs-doc"
        .
        #s(pkg-info
           (catalog "r6rs-doc")
-          "5839505640945610ff0da8f2a2558b7c72e4efc1"
+          "120660c23da9f14535c74ece59bf88dd69df8f2d"
           #t))
       ("r6rs-lib"
        .
        #s(pkg-info
           (catalog "r6rs-lib")
-          "18890496d2f11c05e7b50f121db2d58c5c4d423b"
+          "851ba1aa1a80e738f843f12e708289b1db2e7df6"
           #t))
       ("racket-cheat"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "racket-cheat")
-          "b1410e36fd565a3a3524a8158fb149b41aa43232"
+          "9bd0acb79e2950e9acef130af7986db562748028"
           #t
           "racket-cheat"))
       ("racket-doc"
        .
        #s(pkg-info
           (catalog "racket-doc")
-          "db91213246a1157119a035dd3912a503bb01237e"
+          "e1844b88c977668c7b25c97be358f001e7332e1c"
           #t))
       ("racket-index"
        .
        #s(pkg-info
           (catalog "racket-index")
-          "a9f26c503b5796c7a2f5e646c7e24225af195b62"
+          "9490ab58f8352a574d0f8d228af2b283ec499350"
           #t))
       #;
       ("racket-lib"
        .
        #s(pkg-info
           (catalog "racket-lib")
-          "e51fa278393f99274e0232e7081bc536b95dd1a1"
+          "409b6971e412af5a741e8720077404ef5708958c"
           #f))
       ("racklog"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "racklog")
-          "362c1265f395476ac25081f45bda0af6985d0464"
+          "1a00cb3188b61a1461f893a99122a1cffdd25058"
           #t
           "racklog"))
       ("rackunit"
        .
        #s(pkg-info
           (catalog "rackunit")
-          "6fb8b92a8d3bed5d48461b4b5cf63c3d50741af4"
+          "bc092bc8d1f695addfee6e0844995b4ff890c156"
           #t))
       ("rackunit-doc"
        .
        #s(pkg-info
           (catalog "rackunit-doc")
-          "f2cc6467bbcd3bc8f9d3404592d657d0b8ad1ac5"
+          "868f960a616b88eeed09588e9349e87a00c4e187"
           #t))
       ("rackunit-gui"
        .
        #s(pkg-info
           (catalog "rackunit-gui")
-          "842429b0d656a9a5b0a5be884d8091c668aa2c1a"
+          "aee54e11277b05c2da5f3cb2618920ea8274f60d"
           #t))
       ("rackunit-lib"
        .
        #s(pkg-info
           (catalog "rackunit-lib")
-          "2366cad1b5f07721add72be16f050a2cb332aaad"
+          "10c9bd1e112b4a870ff9902c98c958209308f388"
           #t))
       ("rackunit-plugin-lib"
        .
        #s(pkg-info
           (catalog "rackunit-plugin-lib")
-          "24d3e166ee9c7e62e7e5fbba82e729e112ca391e"
+          "4ae62be866b7bd0b2b3511b46441071f1e9dd018"
           #t))
       ("rackunit-typed"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "rackunit-typed")
-          "fe4c894c031d183926e2090ea5591f350c0dcbf5"
+          "0d028319395588855022fa3e62abe68ff8291800"
           #t
           "typed"))
       ("readline"
        .
        #s(pkg-info
           (catalog "readline")
-          "2c700a9f577a127c4b187272de7cd1af52e0f92b"
+          "b83ef2cfed4959237cfea62dbd6ac6ed80342ab0"
           #t))
       ("readline-doc"
        .
        #s(pkg-info
           (catalog "readline-doc")
-          "6cea5af359376072f7a4ced1175f3816994d15b1"
+          "df5cd8b73bb08a3549364c67c8b68cf90b04da91"
           #t))
       ("readline-lib"
        .
        #s(pkg-info
           (catalog "readline-lib")
-          "efc06d57cdd5665b65ce2feadd36872f4a029e51"
+          "f76fa376fec4a13681ff2a6bec1aa86cf86678b7"
           #t))
       ("realm"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "realm")
-          "21987b60871fdda36acb3166dc76ca20f00a7f12"
+          "bf42bad79bedb058bf4895cc29ded40b5e4932f5"
           #t
           "realm"))
       ("redex"
        .
        #s(pkg-info
           (catalog "redex")
-          "abf264c39c34e078af0c78b1960770ad19c87caf"
+          "78fe1d6016d9a2273ac3925f2256f5dc66e2d975"
           #t))
       ("redex-benchmark"
        .
        #s(pkg-info
           (catalog "redex-benchmark")
-          "128e9e999d42cb352eaaae5f35e5d3eec10cee80"
+          "de0775d053b4398a308b14d53557e552ba86f4cd"
           #t))
       ("redex-doc"
        .
        #s(pkg-info
           (catalog "redex-doc")
-          "c8d10583a62ca06d9a8f2bc6907021e306ee3601"
+          "1e5383d67a14c28bde8d8f8bbe46a1bad0f5de3a"
           #t))
       ("redex-examples"
        .
        #s(pkg-info
           (catalog "redex-examples")
-          "39aed86f205155cfafeb2074a5556d8b872e28a2"
+          "4dd8347557eadea99fcaa3e2e31e4fbc59136699"
           #t))
       ("redex-gui-lib"
        .
        #s(pkg-info
           (catalog "redex-gui-lib")
-          "c514b13516f54c1f9f1bd6c0ab4becd42a1dfe75"
+          "c0219ff13e41eb589967b159226cab29f03f435a"
           #t))
       ("redex-lib"
        .
        #s(pkg-info
           (catalog "redex-lib")
-          "6f957fd3c4c175888cbcd4e00dd4cfdaf9056d95"
+          "cf489db65e7421e1337dac6a09210333272199dd"
           #t))
       ("redex-pict-lib"
        .
        #s(pkg-info
           (catalog "redex-pict-lib")
-          "2190de10a4c32ff7bfe18d6e71a3a3538b10857a"
+          "c55a6912f9728c2ad0488220871957d29b610667"
           #t))
       ("sandbox-lib"
        .
        #s(pkg-info
           (catalog "sandbox-lib")
-          "5afa0d436b47d5ab27b6f2eaec59813989e5cfb9"
+          "485acaddda85c82310f685e6fa7061aa46802815"
           #t))
       ("sasl"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "sasl")
-          "7d3224f185428ccae0e4048d873f6016cd4addec"
+          "fe2b78c703ded43525ddae7da5a98c208aadac15"
           #t
           "sasl"))
       ("sasl-doc"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "sasl-doc")
-          "06ac8be2e833af8672d05d2c74ec5eb4ca709f83"
+          "487485314d682eb3c4eb151a3b7805d1f9f72534"
           #t
           "sasl"))
       ("sasl-lib"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "sasl-lib")
-          "499f6d9dc89216f7ecf15a69d8c61ec4c1a0c5dc"
+          "d41ee03c126fcb9bf05a46ffb8b6454ee5df4271"
           #t
           "sasl"))
       ("scheme-lib"
        .
        #s(pkg-info
           (catalog "scheme-lib")
-          "2d09e364f3494272a1f4393723e348637cf0ad6e"
+          "f9bda8cb2b7dfd055dc977291f65235c436acc69"
           #t))
       ("schemeunit"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "schemeunit")
-          "825a648c4a188bfa70a43d17b9d9769e02747012"
+          "f19946f6d5a32d0dc500d3622c19d00e97179e42"
           #t
           "schemeunit"))
       ("scribble"
        .
        #s(pkg-info
           (catalog "scribble")
-          "f06a54534aad752e9f92cda5d1d2ef24bb7d4ce0"
+          "996cd84f931d277e94518aed5f36a10db2d5bd07"
           #t))
       ("scribble-doc"
        .
        #s(pkg-info
           (catalog "scribble-doc")
-          "1ea649c1f71ebaa2d31d22c2f70a9f7ddfc0f678"
+          "bc9e6127ce1d57edaf4d46a626f90e5e7fdb456c"
           #t))
       ("scribble-html-lib"
        .
        #s(pkg-info
           (catalog "scribble-html-lib")
-          "0c64ea4a58a35a1222ddbad1f4e50fea08dbd62f"
+          "e35e1e7bc87017645b1be582106b98d3b1cd977d"
           #t))
       ("scribble-lib"
        .
        #s(pkg-info
           (catalog "scribble-lib")
-          "ba108a1630a11772cdbea7e8ee036b005c7b4775"
+          "e96e46bd0dd0bcd03c3ddffbffc72f4bf16cd603"
           #t))
       ("scribble-text-lib"
        .
        #s(pkg-info
           (catalog "scribble-text-lib")
-          "c437ee3b022e57a83da97a999cbdc05d6065ccf6"
+          "ee2e960b016b88e6d62b9bbe840ebfd2c5b94c1e"
           #t))
       ("serialize-cstruct-lib"
        .
        #s(pkg-info
           (catalog "serialize-cstruct-lib")
-          "b69c892a242efa46aeddf34f7e9b4e861630d679"
+          "0c46f1f51634e5b13f29d487212455d05f30c11a"
           #t))
       ("sgl"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "sgl")
-          "4a326c0765ef2baa1fec364632b463e928155e44"
+          "e84d427e8163a6dc539eb491d74140c268492437"
           #t
           "sgl"))
       ("shell-completion"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "shell-completion")
-          "299ce024449c37db73205f0878a762a6d90fc556"
+          "77343ae54ec71717d9ddee87a6d713cc1a415736"
           #t
           "shell-completion"))
       ("simple-tree-text-markup"
        .
        #s(pkg-info
           (catalog "simple-tree-text-markup")
-          "ff19bc13f29139efb567403314855b9e5259ab13"
+          "30135d84479825a73d042346b9098032699cd485"
           #t))
       ("simple-tree-text-markup-doc"
        .
        #s(pkg-info
           (catalog "simple-tree-text-markup-doc")
-          "0943649e7a22f4c2ec48b2cdf54c0f315c09722e"
+          "c4b641885c5cdb6885305b7a93272dcf5a8fee54"
           #t))
       ("simple-tree-text-markup-lib"
        .
        #s(pkg-info
           (catalog "simple-tree-text-markup-lib")
-          "9768037426aed489722427dfbd1c55927fa155f1"
+          "da32ffdb4bae4c78b9f02a90bb53cfcb115258f7"
           #t))
       ("slatex"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "slatex")
-          "4b663280d13cdf485df865ca5e0d8f2e418f47c4"
+          "d6b2a49d7834b88a3a136d267f1709d651c6dad3"
           #t
           "slatex"))
       ("slideshow"
        .
        #s(pkg-info
           (catalog "slideshow")
-          "4f7ca46d0fa4a698576da43eca19a674232150aa"
+          "ee69f9e6734cce0b15519df2fa3c73ca78f030d5"
           #t))
       ("slideshow-doc"
        .
        #s(pkg-info
           (catalog "slideshow-doc")
-          "6a4b7fc10227f30ac3795add40ee6acc276567d1"
+          "aebe4de7feee1443e5b75bf82b3c56f32d09fe12"
           #t))
       ("slideshow-exe"
        .
        #s(pkg-info
           (catalog "slideshow-exe")
-          "f76c1ed6b09ff350f038eaf2001fc9fde057b2ae"
+          "c970df673b5ff1309755ba951c0a8d9a70c674b2"
           #t))
       ("slideshow-lib"
        .
        #s(pkg-info
           (catalog "slideshow-lib")
-          "1865f6ef47b3e37f1085742d6f52ad85241ae05e"
+          "cdbf2c0bee1921e305177a957ee65633e8ea5f66"
           #t))
       ("slideshow-plugin"
        .
        #s(pkg-info
           (catalog "slideshow-plugin")
-          "3d280b6485f189ec578eaf3ddeb9d1e09bc49269"
+          "4c6c023bf17081a5153775e46988c3e39fe31483"
           #t))
       ("snip"
        .
        #s(pkg-info
           (catalog "snip")
-          "d3855925ad421757cc494b8ed911105f5e481627"
+          "8018456b8b8840a9c833eac5ae1483c537e7d11b"
           #t))
       ("snip-lib"
        .
        #s(pkg-info
           (catalog "snip-lib")
-          "2e1283328b056a2d98c1403aab633d6026907fc4"
+          "7fd27333da927b6d91396e56eee394a0ef13af1e"
           #t))
       ("source-syntax"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "source-syntax")
-          "5677854f0b4e62730754cc21fdc9458c92878ec1"
+          "b20a80564f66313bd20699a7dbe13ee2c4b9734d"
           #t
           "syntax"))
       ("srfi"
        .
        #s(pkg-info
           (catalog "srfi")
-          "29c07853a40af89ac6ec35dd37cee8929e285dbd"
+          "2af13c799d5da5b0f58823638c2e249fafe8ddd6"
           #t))
       ("srfi-doc"
        .
        #s(pkg-info
           (catalog "srfi-doc")
-          "77a3cca8eb2961d628280313bfc920ea9181cac9"
+          "2201ed9be24f20fef9dddcdf28520fbfef20eda8"
           #t))
       ("srfi-doc-nonfree"
        .
        #s(pkg-info
           (catalog "srfi-doc-nonfree")
-          "db79cb60626a1a64e6b3ee6de2a5c50984664ee2"
+          "b232a7dbe3bee6883a424050dca74f7c13aef979"
           #t))
       ("srfi-lib"
        .
        #s(pkg-info
           (catalog "srfi-lib")
-          "f7ac921ba769cb396519379904b5f0f51a0780d8"
+          "510e2c46e971092c37e6070b430e11236ea4de73"
           #t))
       ("srfi-lite-lib"
        .
        #s(pkg-info
           (catalog "srfi-lite-lib")
-          "f536aaf3d1066532bc7f112eff19c81c3fae5d2b"
+          "632dc90db7e43e8e9612c0ea4de72b9ed6a43ba8"
           #t))
       ("string-constants"
        .
        #s(pkg-info
           (catalog "string-constants")
-          "ace7408dcfb3afca4907da5a078a06ed1c037194"
+          "2cf2a299d4725deb287310d9afb260a0a2156d99"
           #t))
       ("string-constants-doc"
        .
        #s(pkg-info
           (catalog "string-constants-doc")
-          "4bd6a908b9d09a87a85fe48dc53929061fff9a9b"
+          "1e1bac37ebabb66f0616a50065771d147565dba6"
           #t))
       ("string-constants-lib"
        .
        #s(pkg-info
           (catalog "string-constants-lib")
-          "880c200266124320da148d5b66f78043253e6178"
+          "29008fe2cb37d73626b9abfb9eb846b70f870883"
           #t))
       ("swindle"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "swindle")
-          "d292f350bb09a19f96771438bdf266244582d384"
+          "e10d0b08809fada6047df59b7c091004c1fa31c0"
           #t
           "swindle"))
       ("syntax-color"
        .
        #s(pkg-info
           (catalog "syntax-color")
-          "d1f3586391c12e6aebe0ae7bda6388cf3119abad"
+          "a5a5d883dcae9376f703ccced2f492d94faf189a"
           #t))
       ("syntax-color-doc"
        .
        #s(pkg-info
           (catalog "syntax-color-doc")
-          "f5887e603b49fef923632df95275d888a09676b4"
+          "bad9618acfb4291bd99842e420f067ed86575c8a"
           #t))
       ("syntax-color-lib"
        .
        #s(pkg-info
           (catalog "syntax-color-lib")
-          "fead9f2b9bb1813b0772f26242799b93c3f8eec6"
+          "728b3363d49cc45487f415c0803d8fbabf563bfb"
           #t))
       ("testing-util-lib"
        .
        #s(pkg-info
           (catalog "testing-util-lib")
-          "b3071731ce12cadc1503adad99a1c370cd7aa9db"
+          "e6320af0863c30a6bc47a56e582ad57e46c569a9"
           #t))
       ("tex-table"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "tex-table")
-          "938b0047e30ee8fc05fe645ef0deaae03be5c01d"
+          "3670bdc30294ffd7f4d75320e45909d0872eaf29"
           #t
           "mrlib"))
       ("trace"
        .
        #s((sc-pkg-info pkg-info 3)
           (catalog "trace")
-          "a6e33b90f9393f452f404e084643efce25454671"
+          "f014c625ec6da316910fe5de695a85b58e16cd25"
           #t
           "trace"))
       ("typed-racket"
        .
        #s(pkg-info
           (catalog "typed-racket")
-          "4182aa6ee2f518c08d9087e8812fa9de6c78345a"
+          "f4a4b55ea55269f8c6c86e059cc715ac36d6d953"
           #t))
       ("typed-racket-compatibility"
        .
        #s(pkg-info
           (catalog "typed-racket-compatibility")
-          "5a6841d1abdd611806524ba70717423333531221"
+          "4a413922982b2b6d4c7ae932c437012798dba347"
           #t))
       ("typed-racket-doc"
        .
        #s(pkg-info
           (catalog "typed-racket-doc")
-          "ad58d610a3e5d11daa8cbcaa873bed53cf96982a"
+          "c41216157665bf39d8a9053e37dfde70c5eadcb6"
           #t))
       ("typed-racket-lib"
        .
        #s(pkg-info
           (catalog "typed-racket-lib")
-          "6b3be15f3298dd2dd83666572eb67a0d055cf0ba"
+          "9bcd4ddbeadad71f638a6d018a5286f66a685c94"
           #t))
       ("typed-racket-more"
        .
        #s(pkg-info
           (catalog "typed-racket-more")
-          "f681f3e1e505fd14426290afae01dcd29deb21d4"
+          "2edd0e592a137dbabf5d4684f6428d18a18a908e"
           #t))
       ("unix-socket"
        .
        #s(pkg-info
           (catalog "unix-socket")
-          "69ba5cab9bc4c16ca45cc7104854ff1af275aab8"
+          "19d7717c66b19ed9b21e5db90642b119b6e03311"
           #t))
       ("unix-socket-doc"
        .
        #s(pkg-info
           (catalog "unix-socket-doc")
-          "a470fde199ad164f13400fb8aa68359bb7c139fb"
+          "d5a1bc1ec241262bba242423d667f319e311ddd3"
           #t))
       ("unix-socket-lib"
        .
        #s(pkg-info
           (catalog "unix-socket-lib")
-          "a5f89609699a1503230d064d7f69b73fdcd37371"
+          "4059edc949845151b1c02c5ff0e291d3230fec1c"
           #t))
       ("web-server"
        .
        #s(pkg-info
           (catalog "web-server")
-          "fe71de45510cd600899776636dfaa8c41e0e562d"
+          "f71cbb1b331f13352adb44e5a5dcf8a28c27c004"
           #t))
       ("web-server-doc"
        .
        #s(pkg-info
           (catalog "web-server-doc")
-          "edbb902570d093547b9d3eb66bf60ea06cabbf5f"
+          "8a11dc574b73ad5e49589f12dbb8829c1550e327"
           #t))
       ("web-server-lib"
        .
        #s(pkg-info
           (catalog "web-server-lib")
-          "7e1ed19f12ba022fa7a1708effe27ccc5e6d4dc8"
+          "cd455c97bd13dee2583b51eeaf1ec5fb32bf2c3e"
           #t))
       ("wxme"
        .
        #s(pkg-info
           (catalog "wxme")
-          "db19ef50ccf2fbd2e9782967c7a765d71f7eacbf"
+          "e4cdbd0c55c9ba6d9bc3173db4081afc96554242"
           #t))
       ("wxme-lib"
        .
        #s(pkg-info
           (catalog "wxme-lib")
-          "0ef23732e742d6fb24da11be25108c5de7ca858a"
+          "cd8a696ef514c7f075e537db5b5a533f1146925d"
           #t))
       ("xrepl"
        .
        #s(pkg-info
           (catalog "xrepl")
-          "13259b5d5c8dfa37578498795fe9fd05d4683839"
+          "c69a79309e366497903e1f8ef08d33c0f6235be0"
           #t))
       ("xrepl-doc"
        .
        #s(pkg-info
           (catalog "xrepl-doc")
-          "2a62fb9bcd46b0cf1b5e6749f8aa1d0271a92495"
+          "90de726adec800fd57a7abbce07154c51eef2fac"
           #t))
       ("xrepl-lib"
        .
        #s(pkg-info
           (catalog "xrepl-lib")
-          "ff64fd17801c55f40d341799d2fe437fd9f3bf58"
+          "2ee890addb43f02b6aa05d514b8e55b35c0e196a"
           #t))
       ("zo-lib"
        .
        #s(pkg-info
           (catalog "zo-lib")
-          "e043dad3f9bc4125f4edd5e92fba47267c3d9219"
+          "22e86570848c7a4eabe19c39d6bcf20475a92092"
           #t)))
