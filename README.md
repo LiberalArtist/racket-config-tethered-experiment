@@ -22,18 +22,11 @@ try `make minimal`, `make layer-a`, `make layer-b`, or `make main-distribution`.
 
 ## Status
 
-  - On Kubuntu 21.04, things get as far as:
+  - On Kubuntu 21.04, things work! At least well enough to run:
     ```
 	$ ./main-distribution/bin/plt-games
-    standard-module-name-resolver: collection not found
-      for module path: (lib "games/main.rkt")
-      collection: "games"
-      in collection directories:
-       /home/philip/.local/share/racket/8.1.0.6/collects
-       /tmp/config-tethered/minimal/share/racket/collects/
-       /tmp/config-tethered/minimal/share/racket/pkgs/racket-lib
-       /tmp/config-tethered/minimal/share/racket/pkgs/base
     ```
+    ![Screenshot of winning Minesweeper](Screenshot_20210529_154509.png)
   - On Mac OS, `racket/draw/unsafe/glib` fails with the following error,
     which is probably a problem with my local environment:
 	```

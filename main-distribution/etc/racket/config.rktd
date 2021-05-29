@@ -24,6 +24,8 @@
           "/tmp/config-tethered/minimal/lib/racket/compiled"))
       (config-tethered-console-bin-dir
        . "/tmp/config-tethered/main-distribution/bin")
+      (config-tethered-gui-bin-dir
+       . "/tmp/config-tethered/main-distribution/bin")
       (bin-dir
        . "/tmp/config-tethered/main-distribution/bin")
       (bin-search-dirs
