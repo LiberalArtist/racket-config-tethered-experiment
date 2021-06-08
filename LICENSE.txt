@@ -1,0 +1,2 @@
+This repository is licensed under the Apache 2.0 or MIT / Expat license,
+at your option. Note that additional licenses apply in the `racket` submodule.
